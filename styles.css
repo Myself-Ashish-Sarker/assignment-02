@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Mulish", sans-serif;
 }
 
 /* Nav Section */
@@ -22,7 +23,6 @@ nav {
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
-    font-family: "Mulish", sans-serif;
 }
 
 .icon-name h2 span {
@@ -47,7 +47,6 @@ nav {
     color: #131318;
     font-size: 18px;
     font-style: normal;
-    font-family: "Mulish", sans-serif;
     font-weight: 700;
 }
 
@@ -84,7 +83,6 @@ nav {
     font-size: 55px;
     font-style: normal;
     font-weight: 800;
-    font-family: "Mulish", sans-serif;
 }
 
 .banner-texts p {
@@ -95,7 +93,6 @@ nav {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    font-family: "Mulish", sans-serif;
 }
 
 .functionalities {
@@ -156,6 +153,55 @@ nav {
 }
 /* Banner Section */
 
+/* Main Section */
+.introduction {
+    display: flex;
+    margin-top: 100px;
+    padding: 0 150px;
+}
+
+.intro-texts h2 {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.intro-texts p {
+    width: 70%;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.intro-texts ul {
+    margin: 24px 0;
+    width: 80%;
+    margin-left: 15px;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.intro-img img {
+    width: 331px;
+    height: 417px;
+}
+
+.btn-secondary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #ff5400;
+    border: 0;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 32px;
+}
+/* Main Section */
+
 /* Responsive for less than 600px */
 @media screen and (max-width: 600px) {
     /* Nav Section */
@@ -183,7 +229,6 @@ nav {
         font-size: 21.5px;
         font-style: normal;
         font-weight: 800;
-        font-family: "Mulish", sans-serif;
     }
 
     .hamburger {
@@ -195,9 +240,11 @@ nav {
     }
     /* Nav Section */
 
+    /* Banner Section */
     .banner img {
         width: 335px;
         height: 483px;
+        border-radius: 16px;
     }
 
     .banner-texts h2 {
@@ -206,7 +253,7 @@ nav {
 
     .banner-texts p {
         width: 80%;
-    } 
+    }
 
     .functionalities {
         flex-direction: column;
@@ -216,6 +263,28 @@ nav {
     .btn-btn img {
         width: 15px;
         height: 15px;
+    }
+    /* Banner Section */
+
+    .introduction {
+        flex-direction: column;
+        padding: 0 35px;
+        margin-top: 25px;
+    }
+
+    .introduction h2 {
+        color: #131318;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-style: normal;
+    }
+
+    .introduction p {
+        width: 80%;
+    }
+
+    .btn-secondary {
+        margin-bottom: 35px;
     }
 }
 /* Responsive for less than 600px */
