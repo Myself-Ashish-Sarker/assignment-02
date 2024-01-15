@@ -100,9 +100,8 @@ nav {
     display: flex;
     gap: 8px;
     padding: 16px;
-    border: 1px solid green;
-    top: 50%; /* Adjust the top position as needed */
-    left: 50%; /* Adjust the left position as needed */
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, 85%);
     background: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
@@ -154,6 +153,7 @@ nav {
 /* Banner Section */
 
 /* Main Section */
+/* First Section */
 .introduction {
     display: flex;
     margin-top: 100px;
@@ -200,6 +200,188 @@ nav {
     color: #fff;
     margin-top: 32px;
 }
+/* First Section */
+
+/* Second Destination */
+.second-section h2 {
+    text-align: center;
+    margin-top: 100px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.second-section p {
+    width: 60%;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-1 img {
+    filter: brightness(70%);
+}
+
+.first-series {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+}
+
+.maldives {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-2 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-2 img {
+    filter: brightness(70%);
+}
+
+.second-series {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.indonesia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-3 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-3 img {
+    filter: brightness(70%);
+}
+
+.third-series {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.srilanka {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-4 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-4 img {
+    filter: brightness(70%);
+}
+
+.north-america {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-5 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-5 img {
+    filter: brightness(70%);
+}
+
+.kashmir {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-6 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-6 img {
+    filter: brightness(70%);
+}
+
+.bangladesh {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container-7 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-7 img {
+    filter: brightness(70%);
+}
+
+.bandarban {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* Second Destination */
+
 /* Main Section */
 
 /* Responsive for less than 600px */
@@ -285,6 +467,33 @@ nav {
 
     .btn-secondary {
         margin-bottom: 35px;
+    }
+
+    .first-series {
+        flex-direction: column;
+    }
+
+    .first-series img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .second-series {
+        flex-direction: column;
+    }
+
+    .second-series img {
+        width: 335px;
+        height: 176px;
+    }
+
+    .third-series {
+        flex-direction: column;
+    }
+
+    .third-series img {
+        width: 335px;
+        height: 176px;
     }
 }
 /* Responsive for less than 600px */
