@@ -611,4 +611,85 @@ nav {
 }
 /* Fourth Section */
 
+/* fifth-section */
+.fifth-section h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.image-series {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    
+}
+
+.image-series-1 img {
+    width: 410px;
+    height: 298px;
+    border-radius: 8px;
+}
+
+.image-series .new-york-img h1 {
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    top: 76%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.image-series .new-york-img p {
+    position: absolute;
+    width: 25%;
+    font-size: 12px;
+    color: #fff;
+    top: 88%;
+    left: 26.5%;
+    transform: translate(-50%, -50%);
+}
+
+.image-series-2 img {
+    width: 349px;
+    height: 232px;
+    border-radius: 8px;
+}
+
+.image-series-2 h2 {
+    position: relative;
+    font-size: 24px;
+    top: 5%;
+    position: absolute;
+    font-size: 18px;
+    width: 20%;
+    top: 48%;
+    left: 41%;
+    text-align: left;
+}
+
+.image-series-3 img {
+    width: 349px;
+    height: 232px;
+    border-radius: 8px;
+}
+
+.image-series-3 h2 {
+    position: absolute;
+    font-size: 24px;
+    top: 5%;
+    position: absolute;
+    font-size: 18px;
+    width: 20%;
+    top: 48%;
+    left: 64%;
+    text-align: left;
+}
+/* fifth-section */
+
 /* Main Section */
