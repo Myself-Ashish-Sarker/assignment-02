@@ -141,6 +141,7 @@ nav {
     border-radius: 8px;
     background: #ff5400;
     border: 0;
+    cursor: pointer;
 }
 
 .btn-btn img {
@@ -199,6 +200,7 @@ nav {
     font-size: 20px;
     color: #fff;
     margin-top: 32px;
+    cursor: pointer;
 }
 /* First Section */
 
@@ -498,154 +500,115 @@ nav {
 }
 /* Third Section */
 
-/* Main Section */
-
-/* Responsive for less than 600px */
-@media screen and (max-width: 600px) {
-    /* Nav Section */
-    nav {
-        display: flex;
-        padding: 0 20px;
-        align-items: baseline;
-        gap: 70px;
-    }
-
-    .menu-bar {
-        display: none;
-    }
-
-    .icon-name {
-        gap: 10px;
-    }
-
-    .icon-name img {
-        width: 28.7px;
-    }
-
-    .icon-name h2 {
-        color: #131318;
-        font-size: 21.5px;
-        font-style: normal;
-        font-weight: 800;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .hamburger img {
-        width: 24px;
-    }
-    /* Nav Section */
-
-    /* Banner Section */
-    .banner img {
-        width: 335px;
-        height: 483px;
-        border-radius: 16px;
-    }
-
-    .banner-texts h2 {
-        font-size: 22px;
-    }
-
-    .banner-texts p {
-        width: 80%;
-    }
-
-    .functionalities {
-        flex-direction: column;
-        transform: translate(-50%, -13%);
-    }
-
-    .btn-btn img {
-        width: 15px;
-        height: 15px;
-    }
-    /* Banner Section */
-
-    /* First Section */
-    .introduction {
-        flex-direction: column;
-        padding: 0 35px;
-        margin-top: 25px;
-    }
-
-    .introduction h2 {
-        color: #131318;
-        margin-bottom: 10px;
-        font-size: 20px;
-        font-style: normal;
-    }
-
-    .introduction p {
-        width: 80%;
-    }
-
-    .btn-secondary {
-        margin-bottom: 35px;
-    }
-    /* First Section */
-
-    /* Second Section */
-    .first-series {
-        flex-direction: column;
-    }
-
-    .first-series img {
-        width: 335px;
-        height: 176px;
-    }
-
-    .second-series {
-        flex-direction: column;
-    }
-
-    .second-series img {
-        width: 335px;
-        height: 176px;
-    }
-
-    .third-series {
-        flex-direction: column;
-    }
-
-    .third-series img {
-        width: 335px;
-        height: 176px;
-    }
-    /* Second Section */
-
-    /* third section */
-    .third-section h2 {
-        margin-top: 24px;
-        font-size: 20px;
-    }
-
-    .third-section p {
-        font-size: 14px;
-        width: 70%;
-    }
-
-    .choosing {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .box-1 {
-        width: 335px;
-        height: 289px;
-    }
-
-    .box-2 {
-        width: 335px;
-        height: 289px;
-    }
-
-    .box-3 {
-        width: 335px;
-        height: 289px;
-    }
-    /* third section */
+/* Fourth Section */
+.fourth-section {
+    margin-top: 100px;
 }
-/* Responsive for less than 600px */
+
+.last-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.news-box {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+}
+
+.news-box h2 {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.news-box p {
+    width: 75%;
+    margin-top: 16px;
+    margin-left: 40px;
+    color: #5a5a5d;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.news-box hr {
+    margin-top: 16px;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-box input {
+    margin-top: 24px;
+    margin-left: 40px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.news-box input::placeholder {
+    padding: 16px;
+}
+
+.news-box button {
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 393px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.last-new-container {
+    position: relative;
+}
+
+.last-new-container .angle-btn {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #ff5400;
+}
+
+.angle-btn p {
+    margin-top: 31px;
+    transform: rotate(360deg);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.angle-btn h2 {
+    transform: rotate(360deg);
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+}
+/* Fourth Section */
+
+/* Main Section */
