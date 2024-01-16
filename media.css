@@ -234,5 +234,11 @@
         width: 64%;
         left: 10%;
     }
+
+    /*footer section */
+    .footer p {
+        width: 90%;
+    }
+    /*footer section */
 }
 

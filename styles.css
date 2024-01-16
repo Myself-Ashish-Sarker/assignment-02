@@ -627,7 +627,6 @@ nav {
     justify-content: center;
     gap: 8px;
     position: relative;
-    
 }
 
 .image-series-1 img {
@@ -693,3 +692,44 @@ nav {
 /* fifth-section */
 
 /* Main Section */
+
+/* Footer section */
+.footer {
+    width: auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-icon {
+    margin-top: 50px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.footer p {
+    width: 40%;
+    color: #5a5a5d;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer hr {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.final {
+    padding-bottom: 40px;
+}
+/* Footer section */
