@@ -380,7 +380,123 @@ nav {
     font-weight: 800;
 }
 
-/* Second Destination */
+/* Second Section */
+
+/* Third Section */
+.third-section h2 {
+    margin-top: 100px;
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.third-section .third-para {
+    width: 40%;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.choosing {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box-1 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.box-1 img {
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.box-1 h3 {
+    padding-top: 32px;
+    padding-left: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-1 .choose-para {
+    padding-top: 16px;
+    padding-left: 32px;
+    color: #5a5a5d;
+}
+
+.box-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.box-2 img {
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.box-2 h3 {
+    padding-top: 32px;
+    padding-left: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-2 .world-para {
+    padding-top: 16px;
+    padding-left: 32px;
+    color: #5a5a5d;
+}
+
+.box-3-container {
+    display: flex;
+    justify-content: center;
+}
+
+.box-3 {
+    margin-top: 24px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.box-3 img {
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.box-3 h3 {
+    padding-top: 32px;
+    padding-left: 32px;
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.box-3 p {
+    padding-top: 16px;
+    padding-left: 32px;
+    color: #5a5a5d;
+}
+/* Third Section */
 
 /* Main Section */
 
@@ -448,6 +564,7 @@ nav {
     }
     /* Banner Section */
 
+    /* First Section */
     .introduction {
         flex-direction: column;
         padding: 0 35px;
@@ -468,7 +585,9 @@ nav {
     .btn-secondary {
         margin-bottom: 35px;
     }
+    /* First Section */
 
+    /* Second Section */
     .first-series {
         flex-direction: column;
     }
@@ -495,5 +614,38 @@ nav {
         width: 335px;
         height: 176px;
     }
+    /* Second Section */
+
+    /* third section */
+    .third-section h2 {
+        margin-top: 24px;
+        font-size: 20px;
+    }
+
+    .third-section p {
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .choosing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-1 {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-2 {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-3 {
+        width: 335px;
+        height: 289px;
+    }
+    /* third section */
 }
 /* Responsive for less than 600px */
